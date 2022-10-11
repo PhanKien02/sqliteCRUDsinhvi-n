@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Mã sinh viên"
+       android:layout_margin="0dp"
+       android:textColor="#DA0A0A"
+       android:layout_marginTop="10dp"
+       android:textSize="15dp" />
+
+   <EditText
+       android:id="@+id/add_update_msv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Mã Sinh Viên..."
+       android:textSize="15dp"
+       android:layout_marginTop="10dp"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Tên sinh viên"
+       android:layout_margin="0dp"
+       android:layout_marginTop="10dp"
+       android:textColor="#DA0A0A"
+       android:textSize="15dp" />
+   <EditText
+       android:id="@+id/add_update_tsv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Tên Sinh Viên..."
+       android:textSize="15dp"
+       android:layout_marginTop="10dp"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Lớp"
+       android:layout_margin="0dp"
+       android:textColor="#DA0A0A"
+       android:textSize="15dp" />
+   <EditText
+       android:id="@+id/add_update_lop"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Lớp..."
+       android:textSize="15dp"
+       android:layout_marginTop="10dp"
+       />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+      >
+      <Button
+          android:id="@+id/save"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="20dp"
+          android:text="Save"
+          android:textColor="#FFEB3B"/>
+      <Button
+          android:id="@+id/viewlist"
+          android:layout_width="150dp"
+          android:text="List Sinh Viên"
+          android:gravity="center"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          />
+   </LinearLayout>
+</LinearLayout>
